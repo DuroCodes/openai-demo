@@ -23,7 +23,7 @@ npm i
 **4.** Add your API key to `config.ts`.
 
 ```ts
-export const apiKey = 'your api key]';
+export const apiKey = 'your api key';
 ```
 
 **5.** Run the project.
