@@ -1,1 +1,1 @@
-export const apiKey = 'your api key';
+export const apiKey = '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';

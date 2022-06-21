@@ -26,7 +26,7 @@ export default async function (req: NextApiRequest, res: NextApiResponse<Respons
   const completion = await client.createCompletion({
     model: 'text-davinci-002',
     prompt: req.body.request,
-    temperature: 0.6,
+    temperature: req.body.temperature,
     max_tokens: 1000,
   }) as Completion;
 
